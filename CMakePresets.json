@@ -1,0 +1,20 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 25,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "test",
+      "generator": "Ninja",
+      "toolchainFile": "/opt/sdk/toolchain.cmake",
+      "vendor": {
+        "jetbrains.com/clion": {
+          "toolchain": "cpp-33878"
+        }
+      }
+    }
+  ]
+}
